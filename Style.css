@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+    *{
+         margin:0;
+         padding: 0;
+         border: 0;
+      }
+      
+      body{
+        background-color: rgb(230, 108, 14);
+       }
+      header {
+          padding: 32px;
+          border-bottom: 1px solid #ce3e28;
+          background-color: rgb(228, 73, 12);
+      }
+      header div {
+          text-align: center; /* alinhamento no meio do header */
+      }
+      header div a{
+            color: rgb(247, 248, 253); /* a cor do texto */
+            font-size: 20px; /* tamanho da fonte */
+            line-height: 30px; /* espaçamento da linha do texto */
+            margin: 0 16px; /* espaçaento do texto */
+            text-decoration: none; /* retirar decoraçao do texto */
+            font-family:  "Holtwood One SC", serif; /*fonte escolhida no menu */
+      }
+  header div a:hover {  /* seleçao de modo quando o mouse passar por cima "hover"*/
+      color: #772fe3; /* mudar para cor roxa*/
+      transition: color 700ms; /* e fazer uma trasinçao de cor q dura 700ms*/
+
+  }
