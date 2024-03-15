@@ -57,3 +57,34 @@
     font-size: 24px; /* tamanho da fonte */
     line-height: 34px; /* espaçamento da linha */
  }
+ .links {
+   text-align: center;
+ }
+ .links a {
+   color: aliceblue;
+   font-size: 20px;
+   line-height: 30px;
+   margin: 0 16px;
+   text-decoration: none;
+ }
+ .links a:hover {
+   color: var(--subcor);
+   transition: 600ms;
+   font-size: 23px;
+ }
+ #box h1   {
+   padding: 4px;
+}
+ 
+#box h2   {
+padding: 10px;
+ }
+
+ #box p:hover {
+   font-size: 23px;
+}
+
+ #box  a{
+   color: var(--subcor);
+   transition: 600ms;
+ }
