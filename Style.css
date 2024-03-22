@@ -6,18 +6,18 @@
       }
       
       body{
-        background-color: rgb(230, 108, 14);
+        background-color: rgb(39, 134, 194);
        }
       header {
           padding: 32px;
-          border-bottom: 1px solid #aa7315;
-          background-color: rgb(202, 46, 12);
+          border-bottom: 1px solid #0f74ae;
+          background-color: rgb(76, 12, 145);
       }
       header div {
           text-align: center; /* alinhamento no meio do header */
       }
       header div a{
-            color: rgb(247, 248, 253); /* a cor do texto */
+            color: rgb(221, 41, 203); /* a cor do texto */
             font-size: 20px; /* tamanho da fonte */
             line-height: 30px; /* espaçamento da linha do texto */
             margin: 0 16px; /* espaçaento do texto */
@@ -36,7 +36,7 @@
 
  #box img {
     border-radius: 50%; /* adiciona uma borda rendonda da imagem */
-    border: 5px  solid #0f2404; /* adiciona uma cor a borda da imagem */ 
+    border: 5px  solid #100f10; /* adiciona uma cor a borda da imagem */ 
     margin-bottom: 32px; /* distancia da margem inferior dos outros elementos */
  }
  #box h1 {
@@ -61,7 +61,7 @@
    text-align: center;
  }
  .links a {
-   color: aliceblue;
+   color: rgb(250, 249, 250);
    font-size: 20px;
    line-height: 30px;
    margin: 0 16px;
@@ -87,4 +87,13 @@ padding: 10px;
  #box  a{
    color: var(--subcor);
    transition: 600ms;
+ }
+ #linksfooter {
+   padding-top: 32px;
+ }
+
+ #linksfooter a {
+   padding-top: 32px;
+   padding-bottom: 8px;
+   border-bottom: 3px solid var(--subcor);
  }
