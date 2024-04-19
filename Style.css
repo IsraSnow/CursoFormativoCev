@@ -6,12 +6,12 @@
       }
       
       body{
-        background-color: rgb(39, 134, 194);
+        background-color: rgb(61, 64, 56);
        }
       header {
           padding: 32px;
           border-bottom: 1px solid #0f74ae;
-          background-color: rgb(76, 12, 145);
+          background-color: rgb(149, 24, 176);
       }
       header div {
           text-align: center; /* alinhamento no meio do header */
